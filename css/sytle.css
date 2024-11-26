@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("./variables.css");
+
+:root {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: var(--primary-vairant);
+}
+
+.navbar {
+  border-bottom: 1px solid #f6571c;
+}
+
+.navbar .logo{
+    font-size: 24px
+}
+
+.banner-container .banner-image {
+  width: 50%;
+  height: 500px;
+}
+
+.banner-container .title {
+  font-size: 48px;
+}
+
+/* Chamada de Sorteio */
+.called-draw {
+  border: 1px solid #f6571c;
+}
+
+.called-draw .title {
+  font-size: 24px;
+}
+
+.cards-container {
+  gap: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-container {
+    flex-direction: column;
+  }
+
+  .banner-container .banner-image {
+    height: auto;
+    width: 100%;
+  }
+
+  .banner-container .title {
+    font-size: 20px;
+  }
+
+  .banner-container .description {
+    font-size: 16px;
+  }
+
+  .banner-container .btn-container {
+    justify-content: center;
+  }
+
+  .btn-participe {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+  }
+
+  /* Chamada de Sorteio */
+
+  .called-draw .title {
+    font-size: 20px;
+  }
+
+  .cards-container {
+    overflow: auto;
+    max-width: 100%;
+  }
+}
+
+.bg-primary-elev {
+  background-color: var(--primary-elev);
+}
+
+.bg-secondary-elev {
+  background-color: var(--secondary-elev);
+}
+
+.bg-primary-vairant {
+  background-color: var(--primary-vairant);
+}
+
+.bg-secondary-vairant {
+  background-color: var(--secondary-variant);
+}
+
+.text-color-primary {
+  color: var(--text-color-primary);
+}
+
+.text-color-secondary {
+  color: var(--text-color-secondary);
+}

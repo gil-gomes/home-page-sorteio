@@ -1,0 +1,13 @@
+:root {
+    /* Colors */
+
+    --primary-elev: #000024;
+    --primary-vairant: #111135;
+    --secondary-elev: #F6571C;
+    --secondary-variant: #E53E00;
+    --tertiary-elev: #25EB50;
+
+    --text-color-primary: #F6571C;
+    --text-color-secondary: #FFFFFF;
+    --text-color-tertiary: #111135;
+}
